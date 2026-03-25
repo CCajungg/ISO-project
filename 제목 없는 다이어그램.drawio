@@ -454,7 +454,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rL871BOyyORwOmNkw0F0-49" parent="1" style="whiteSpace=wrap;html=1;" value="ROC&lt;div&gt;Direct Control&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="111" x="163" y="3250" as="geometry" />
+          <mxGeometry height="40" width="111" x="70" y="3250" as="geometry" />
         </mxCell>
         <mxCell id="rL871BOyyORwOmNkw0F0-63" edge="1" parent="1" source="rL871BOyyORwOmNkw0F0-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rL871BOyyORwOmNkw0F0-13" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -501,8 +501,8 @@
         <mxCell id="rL871BOyyORwOmNkw0F0-97" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=10;" value="Cannot&lt;div&gt;Mitigate&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="60" x="195" y="3073" as="geometry" />
         </mxCell>
-        <mxCell id="rL871BOyyORwOmNkw0F0-107" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Control&lt;div&gt;Command&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="80" x="314" y="3226" as="geometry" />
+        <mxCell id="rL871BOyyORwOmNkw0F0-107" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Control&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Command&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="240" y="3231" as="geometry" />
         </mxCell>
         <mxCell id="rL871BOyyORwOmNkw0F0-110" edge="1" parent="1" source="rL871BOyyORwOmNkw0F0-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="rL871BOyyORwOmNkw0F0-3" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -519,8 +519,8 @@
         <mxCell id="rL871BOyyORwOmNkw0F0-115" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontColor=light-dark(#ff0000, #ededed);fontStyle=1" value="Outside OE" vertex="1">
           <mxGeometry height="30" width="90" x="5" y="3310" as="geometry" />
         </mxCell>
-        <mxCell id="rL871BOyyORwOmNkw0F0-116" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Request&lt;div&gt;to ROC&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="70" x="319" y="3280" as="geometry" />
+        <mxCell id="rL871BOyyORwOmNkw0F0-116" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;" value="Request&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;to ROC&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="110" x="245" y="3285" as="geometry" />
         </mxCell>
         <mxCell id="rL871BOyyORwOmNkw0F0-117" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontSize=10;" value="Request&lt;div&gt;to ROC&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="60" x="188.5" y="2975" as="geometry" />
