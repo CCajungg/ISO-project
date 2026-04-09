@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram name="페이지-1" id="kASTQWZIOBXth4uf6YRm">
-    <mxGraphModel dx="2367" dy="996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2774" dy="1566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -605,7 +605,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fy0xyIsMbO5ZdI0-pT1l-19" parent="1" style="whiteSpace=wrap;html=1;" value="Degraded state" vertex="1">
-          <mxGeometry height="40" width="101" x="-880" y="3090" as="geometry" />
+          <mxGeometry height="40" width="90" x="-869" y="3090" as="geometry" />
         </mxCell>
         <mxCell id="Fy0xyIsMbO5ZdI0-pT1l-22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
