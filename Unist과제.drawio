@@ -82,12 +82,12 @@
           <mxGeometry height="30" width="190" y="30" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-48" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="데이터 저장 서버" vertex="1">
-          <mxGeometry height="60" width="190" x="360" y="520" as="geometry">
+          <mxGeometry height="60" width="230" x="335" y="520" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-49" parent="ds-gPJsMHlGCVKMg85c9-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="시험 결과 저장, 재현성 확보" vertex="1">
-          <mxGeometry height="30" width="190" y="30" as="geometry" />
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-49" parent="ds-gPJsMHlGCVKMg85c9-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="시험 결과 및 메타데이터 저장, 재현성 확보" vertex="1">
+          <mxGeometry height="30" width="230" y="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
