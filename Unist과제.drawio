@@ -104,15 +104,15 @@
           <mxGeometry height="30" width="190" y="60" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AI 선박 기자재/SW" vertex="1">
-          <mxGeometry height="90" width="330" x="100" y="620" as="geometry">
+          <mxGeometry height="90" width="190" x="100" y="620" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-43" parent="ds-gPJsMHlGCVKMg85c9-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="SW : 자율운항 알고리즘 (상황인식, 경로계획, 충돌회피 등)" vertex="1">
-          <mxGeometry height="30" width="330" y="30" as="geometry" />
+          <mxGeometry height="30" width="190" y="30" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-41" parent="ds-gPJsMHlGCVKMg85c9-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="HW : 알고리즘이 탑재된 선박 기자재" vertex="1">
-          <mxGeometry height="30" width="330" y="60" as="geometry" />
+          <mxGeometry height="30" width="190" y="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
