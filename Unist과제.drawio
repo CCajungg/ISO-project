@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ds-gPJsMHlGCVKMg85c9-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="190" width="950" x="200" y="210" as="geometry" />
+          <mxGeometry height="190" width="960" x="200" y="210" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="190" width="1430" x="-30" y="760" as="geometry" />
+          <mxGeometry height="190" width="1390" x="-10" y="760" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 엔진" vertex="1">
           <mxGeometry height="120" width="250" x="220" y="260" as="geometry">
@@ -83,7 +83,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-92" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 엔진" vertex="1">
-          <mxGeometry height="120" width="250" x="-10" y="810" as="geometry">
+          <mxGeometry height="120" width="250" x="10" y="810" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -98,11 +98,11 @@
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-96" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ds-gPJsMHlGCVKMg85c9-105" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="531" y="1050" as="targetPoint" />
+            <mxPoint x="705" y="1010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-97" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HILS 컨트롤러" vertex="1">
-          <mxGeometry height="120" width="260" x="730" y="810" as="geometry">
+          <mxGeometry height="120" width="260" x="750" y="810" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -116,7 +116,7 @@
           <mxGeometry height="30" width="260" y="90" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-100" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AI 선박 기자재(HW)" vertex="1">
-          <mxGeometry height="120" width="190" x="1150" y="810" as="geometry">
+          <mxGeometry height="120" width="190" x="1170" y="810" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -155,7 +155,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-113" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SILS 미들웨어" vertex="1">
-          <mxGeometry height="90" width="190" x="390" y="810" as="geometry">
+          <mxGeometry height="90" width="190" x="410" y="810" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -193,22 +193,22 @@
           <mxGeometry height="41.71" width="130" x="810" y="260" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-133" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;가상 센서 출력 데이터&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="41.71" width="130" x="250" y="888.29" as="geometry" />
+          <mxGeometry height="41.71" width="130" x="270" y="888.29" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-134" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="제어/항해 명령 값" vertex="1">
-          <mxGeometry height="41.71" width="130" x="250" y="810" as="geometry" />
+          <mxGeometry height="41.71" width="130" x="270" y="810" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-136" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="제어/항해 명령 값" vertex="1">
-          <mxGeometry height="41.71" width="130" x="590" y="810" as="geometry" />
+          <mxGeometry height="41.71" width="130" x="610" y="810" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-137" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;변환된 센서 출력 데이터&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(디지털 기반)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="41.71" width="130" x="590" y="888.29" as="geometry" />
+          <mxGeometry height="41.71" width="130" x="610" y="888.29" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-138" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;변환된&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;센서 출력 데이터&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(물리 신호 기반)&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="41.71" width="130" x="1000" y="888.29" as="geometry" />
+          <mxGeometry height="41.71" width="130" x="1020" y="888.29" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-139" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="제어/항해 명령 값" vertex="1">
-          <mxGeometry height="41.71" width="130" x="1000" y="810" as="geometry" />
+          <mxGeometry height="41.71" width="130" x="1020" y="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
