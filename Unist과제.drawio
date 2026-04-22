@@ -1,11 +1,17 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="nK92fK8xTf1dSiYuHOpF">
-    <mxGraphModel dx="1174" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2416" dy="1298" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-89" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="190" width="890" x="40" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-111" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="190" width="1270" x="50" y="760" as="geometry" />
+        </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-31" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 엔진" vertex="1">
-          <mxGeometry height="120" width="250" x="50" y="300" as="geometry">
+          <mxGeometry height="120" width="250" x="61" y="300" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -18,11 +24,13 @@
         <mxCell id="ds-gPJsMHlGCVKMg85c9-35" parent="ds-gPJsMHlGCVKMg85c9-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="타선, 항로표지 등 장애물&amp;nbsp;" vertex="1">
           <mxGeometry height="30" width="250" y="90" as="geometry" />
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-76" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-40">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-86" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ds-gPJsMHlGCVKMg85c9-48" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="521" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-36" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SILS 미들웨어" vertex="1">
-          <mxGeometry height="90" width="190" x="355" y="310" as="geometry">
+          <mxGeometry height="90" width="190" x="426" y="300" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -33,7 +41,7 @@
           <mxGeometry height="30" width="190" y="60" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-40" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AI 자율운항 SW/알고리즘" vertex="1">
-          <mxGeometry height="90" width="190" x="620" y="310" as="geometry">
+          <mxGeometry height="90" width="190" x="711" y="300" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -43,8 +51,11 @@
         <mxCell id="ds-gPJsMHlGCVKMg85c9-41" parent="ds-gPJsMHlGCVKMg85c9-40" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="충돌회피, 경로추종 제어 알고리즘" vertex="1">
           <mxGeometry height="30" width="190" y="60" as="geometry" />
         </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-123" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ds-gPJsMHlGCVKMg85c9-89" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-44" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 운영 서버" vertex="1">
-          <mxGeometry height="60" width="190" x="355" y="160" as="geometry">
+          <mxGeometry height="60" width="190" x="390" y="120" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -52,72 +63,115 @@
           <mxGeometry height="30" width="190" y="30" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-48" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="데이터 저장 서버" vertex="1">
-          <mxGeometry height="60" width="230" x="335" y="490" as="geometry">
+          <mxGeometry height="60" width="230" x="370" y="490" as="geometry">
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-49" parent="ds-gPJsMHlGCVKMg85c9-48" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="시험 결과 및 메타데이터 저장, 재현성 확보" vertex="1">
           <mxGeometry height="30" width="230" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-50" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 엔진" vertex="1">
-          <mxGeometry height="120" width="250" x="50" y="810" as="geometry">
-            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-51" parent="ds-gPJsMHlGCVKMg85c9-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="선박 동역학 모델 (6자유도)" vertex="1">
-          <mxGeometry height="30" width="250" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-52" parent="ds-gPJsMHlGCVKMg85c9-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="고해상도 3D 해역, 환경 모델 (파랑,조류, 바람)" vertex="1">
-          <mxGeometry height="30" width="250" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-53" parent="ds-gPJsMHlGCVKMg85c9-50" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="타선, 항로표지 등 장애물&amp;nbsp;" vertex="1">
-          <mxGeometry height="30" width="250" y="90" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-54" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SILS/HILS 미들웨어" vertex="1">
-          <mxGeometry height="90" width="190" x="355" y="820" as="geometry">
-            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-55" parent="ds-gPJsMHlGCVKMg85c9-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="가상 센서 데이터 변환" vertex="1">
-          <mxGeometry height="30" width="190" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-56" parent="ds-gPJsMHlGCVKMg85c9-54" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="실시간 이중화 데이터 스트림" vertex="1">
-          <mxGeometry height="30" width="190" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-57" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AI 선박 기자재/SW" vertex="1">
-          <mxGeometry height="90" width="330" x="600" y="820" as="geometry">
-            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-58" parent="ds-gPJsMHlGCVKMg85c9-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="SW : 자율운항 알고리즘 (상황인식, 경로계획, 충돌회피 등)" vertex="1">
-          <mxGeometry height="30" width="330" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-59" parent="ds-gPJsMHlGCVKMg85c9-57" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="HW : 알고리즘이 탑재된 선박 기자재" vertex="1">
-          <mxGeometry height="30" width="330" y="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-60" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 운영 서버" vertex="1">
-          <mxGeometry height="60" width="190" x="355" y="670" as="geometry">
-            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-61" parent="ds-gPJsMHlGCVKMg85c9-60" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="시나리오 설계, 배분, 모니터링" vertex="1">
-          <mxGeometry height="30" width="190" y="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-62" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="데이터 저장 서버" vertex="1">
-          <mxGeometry height="60" width="230" x="335" y="1030" as="geometry">
-            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-63" parent="ds-gPJsMHlGCVKMg85c9-62" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="시험 결과 및 메타데이터 저장, 재현성 확보" vertex="1">
-          <mxGeometry height="30" width="230" y="30" as="geometry" />
-        </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-78" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-79" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-38">
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-83" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-83" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-33">
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-87" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" target="ds-gPJsMHlGCVKMg85c9-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-88" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-92" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 엔진" vertex="1">
+          <mxGeometry height="120" width="250" x="71" y="810" as="geometry">
+            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-93" parent="ds-gPJsMHlGCVKMg85c9-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="선박 동역학 모델 (6자유도)" vertex="1">
+          <mxGeometry height="30" width="250" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-94" parent="ds-gPJsMHlGCVKMg85c9-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="고해상도 3D 해역, 환경 모델 (파랑,조류, 바람)" vertex="1">
+          <mxGeometry height="30" width="250" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-95" parent="ds-gPJsMHlGCVKMg85c9-92" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="타선, 항로표지 등 장애물&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="250" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-96" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="ds-gPJsMHlGCVKMg85c9-105" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="531" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-97" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="HILS 컨트롤러" vertex="1">
+          <mxGeometry height="120" width="190" x="730" y="810" as="geometry">
+            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-98" parent="ds-gPJsMHlGCVKMg85c9-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="실장비 인터페이스 제공(Serial, CAN, ETH 등)" vertex="1">
+          <mxGeometry height="30" width="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-112" parent="ds-gPJsMHlGCVKMg85c9-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="센서 신호 동기화" vertex="1">
+          <mxGeometry height="30" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-99" parent="ds-gPJsMHlGCVKMg85c9-97" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="Fail-Safe 조건 감시" vertex="1">
+          <mxGeometry height="30" width="190" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-100" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AI 선박 기자재(HW)" vertex="1">
+          <mxGeometry height="90" width="190" x="1050" y="810" as="geometry">
+            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-101" parent="ds-gPJsMHlGCVKMg85c9-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="자율운항 알고리즘 탑재 모듈" vertex="1">
+          <mxGeometry height="30" width="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-102" parent="ds-gPJsMHlGCVKMg85c9-100" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="실제 물리 I/O 수신, 판단, 출력" vertex="1">
+          <mxGeometry height="30" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-122" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="ds-gPJsMHlGCVKMg85c9-111" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-103" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="시뮬레이션 운영 서버" vertex="1">
+          <mxGeometry height="60" width="190" x="590" y="630" as="geometry">
+            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-104" parent="ds-gPJsMHlGCVKMg85c9-103" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="시나리오 설계, 배분, 모니터링" vertex="1">
+          <mxGeometry height="30" width="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-105" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="데이터 저장 서버" vertex="1">
+          <mxGeometry height="60" width="230" x="570" y="1010" as="geometry">
+            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-106" parent="ds-gPJsMHlGCVKMg85c9-105" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="시험 결과 및 메타데이터 저장, 재현성 확보" vertex="1">
+          <mxGeometry height="30" width="230" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-107" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-110" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-113" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SILS 미들웨어" vertex="1">
+          <mxGeometry height="90" width="190" x="390" y="810" as="geometry">
+            <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-114" parent="ds-gPJsMHlGCVKMg85c9-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="가상 센서 데이터 변환" vertex="1">
+          <mxGeometry height="30" width="190" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-115" parent="ds-gPJsMHlGCVKMg85c9-113" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="실시간 이중화 데이터 스트림" vertex="1">
+          <mxGeometry height="30" width="190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-117" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-118" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-119" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-120" edge="1" parent="1" source="ds-gPJsMHlGCVKMg85c9-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
