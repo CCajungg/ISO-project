@@ -180,7 +180,7 @@
         <mxCell id="ds-gPJsMHlGCVKMg85c9-125" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="시나리오 정보" vertex="1">
           <mxGeometry height="30" width="93.5" x="580" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;선박 상태,&amp;nbsp;&lt;/div&gt;가상 센서 출력 데이터" vertex="1">
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-126" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;가상 센서 출력 데이터&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="41.71" width="130" x="486" y="338.29" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-128" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="제어 명령 값" vertex="1">
