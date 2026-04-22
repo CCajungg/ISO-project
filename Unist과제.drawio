@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="페이지-1" id="nK92fK8xTf1dSiYuHOpF">
-    <mxGraphModel dx="772" dy="1102" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2054" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,7 +9,7 @@
             <mxPoint x="260" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEVVHrJUZRrO7HUado36-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Target SW" vertex="1">
+        <mxCell id="XEVVHrJUZRrO7HUado36-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Plant" vertex="1">
           <mxGeometry height="40" width="120" x="200" y="320" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Ship Dynamics" vertex="1">
