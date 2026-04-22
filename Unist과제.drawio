@@ -34,7 +34,7 @@
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-37" parent="ds-gPJsMHlGCVKMg85c9-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="가상 센서 데이터 변환" vertex="1">
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-37" parent="ds-gPJsMHlGCVKMg85c9-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="가상 센서 데이터 포맷 변환" vertex="1">
           <mxGeometry height="30" width="190" y="30" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-38" parent="ds-gPJsMHlGCVKMg85c9-36" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="실시간 이중화 데이터 스트림" vertex="1">
