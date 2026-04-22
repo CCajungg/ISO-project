@@ -45,10 +45,10 @@
             <mxRectangle height="30" width="60" x="-110" y="420" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-32" parent="ds-gPJsMHlGCVKMg85c9-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="해역, 환경 모델 (파랑,조류, 바람)" vertex="1">
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-33" parent="ds-gPJsMHlGCVKMg85c9-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="선박 동역학 모델 (6-DOF)" vertex="1">
           <mxGeometry height="30" width="190" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-33" parent="ds-gPJsMHlGCVKMg85c9-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="선박 동역학 모델 (6-DOF)" vertex="1">
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-32" parent="ds-gPJsMHlGCVKMg85c9-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="해역, 환경 모델 (파랑,조류, 바람)" vertex="1">
           <mxGeometry height="30" width="190" y="60" as="geometry" />
         </mxCell>
         <mxCell id="ds-gPJsMHlGCVKMg85c9-35" parent="ds-gPJsMHlGCVKMg85c9-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" value="타선, 항로표지 등 장애물&amp;nbsp;" vertex="1">
