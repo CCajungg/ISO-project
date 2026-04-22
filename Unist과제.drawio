@@ -4,13 +4,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ds-gPJsMHlGCVKMg85c9-2" edge="1" parent="1" source="XEVVHrJUZRrO7HUado36-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" value="">
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-2" edge="1" parent="1" source="XEVVHrJUZRrO7HUado36-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ds-gPJsMHlGCVKMg85c9-5" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="260" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="XEVVHrJUZRrO7HUado36-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="200" y="300" as="geometry" />
+        <mxCell id="XEVVHrJUZRrO7HUado36-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Target SW" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Ship Dynamics" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-gPJsMHlGCVKMg85c9-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" value="Middleware" vertex="1">
+          <mxGeometry height="40" width="120" x="200" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
